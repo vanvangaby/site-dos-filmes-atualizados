@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmes Interativos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="central">
+        <div class="filme-info">
+            <div class="filme-texto">
+                <h3 id="filme-titulo">Selecione um Filme</h3>
+                <img id="filme-img" src="https://via.placeholder.com/350x200" alt="Imagem do Filme">
+                <p id="filme-descricao">Clique em um dos botões abaixo para ver a sinopse do filme.</p>
+            </div>
+        </div>
+
+        <div class="botoes">
+            <button onclick="mostrarFilme(0)">Filme 1</button>
+            <button onclick="mostrarFilme(1)">Filme 2</button>
+            <button onclick="mostrarFilme(2)">Filme 3</button>
+            <button onclick="mostrarFilme(3)">Filme 4</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
