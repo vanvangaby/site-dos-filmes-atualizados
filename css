@@ -1,0 +1,48 @@
+body {
+    background: url('img/pexels-rickyrecap-2240571.jpg') no-repeat center center fixed; 
+    background-size: cover; 
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.central {
+    width: fit-content;
+    background: rgba(1, 3, 0, 0.823);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+.central h2 {
+    color: #f6e9e9c0; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.central button {
+    width: 100px;
+    background: rgba(96, 124, 136, 0.338); 
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s; 
+    border-radius: 5px; 
+}    
+
+.central button:hover {
+    background: rgba(220, 220, 220, 1);
+    transform: scale(1.05); 
+}
+
+img {
+    width: 100%; 
+    max-width: 250px; 
+    height: auto; 
+    margin-bottom: 20px; 
+}
+
+
